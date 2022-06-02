@@ -27,6 +27,10 @@ ejecutar psql sin opciones nos manda a la consola para hacer consultas SQL de po
 ```
 
 
+```bash
+\du detalle usuarios
+```
+
 # pg_dump
 ```bash
 	pg_dump [opciones]... [base de datos]

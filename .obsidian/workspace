@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "d6ac5a9f7ea576e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "1739e71682edbfc7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2do Parcial/Streaming Replication.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0de717ecbe534663",
+    "type": "split",
+    "children": [
+      {
+        "id": "630a7a12322a9972",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdf9f69d5d43065e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "409fc13ddb0b3784",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "350021e5966f1020",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4daf2c32399e3b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d00cd038e013492",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2do Parcial/Streaming Replication.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1739e71682edbfc7",
+  "lastOpenFiles": [
+    "2do Parcial/Streaming Replication.md",
+    "2do Parcial/TEMAS para el parcial.md",
+    "Clase 27-05-22.md",
+    "Utils/Sintaxis comandos.md",
+    "2do Parcial/Automatizar tareas con crontab.md",
+    "2do Parcial/Backups.md",
+    "2do Parcial/Recuperar Base de Datos desde archivo .dmp.md",
+    "2do Parcial/Realizar Backup Lógico de una Base de Datos.md",
+    "2do Parcial/Realizar Backup Físico de una Base de Datos.md",
+    "2do Parcial/Crear script para realizar backups.md"
+  ]
+}

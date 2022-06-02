@@ -34,10 +34,21 @@ IP del slave: 172.16.194.129
 
 3. Reiniciar el postgres.
 
+
+# Clonar la maquina virtual con VMWare
+
 # Pasos en el esclavo
-## 1. Editar el postgresql.conf
-```conf
-	primary_conninfo = primary_conninfo = 'user=repuser port=5432 host=[ip del master] application_name=slave.repl'
+## 1. Borrar la carpeta data
+Hay que darle permisos al usuario **postgres** para que pueda borrar la carpeta data:
+### 1. Entramos al esclavo con el usuario **osboxes**
+```bash
+	sudo chmod 777 /usr/local/pgsql/
+```
+Osea le damos permisos a todos los usuario para que puedan modificar la carpeta pgsql.
+
+### 2. Eliminamos la carpeta data (con el usuario **postgres**)
+```bash
+	rm -r /usr/local/pgsql/data
 ```
 
 ## 2. Iniciar el postgres
